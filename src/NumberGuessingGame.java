@@ -13,12 +13,12 @@ public class NumberGuessingGame {
         int min = 1;
         int max = 100;
         int randomNumber = (int) (Math.random() * (max - min + 1) + min);
-
+        int numberGuessed = 0; // Not necessary to initialize here, but done for clarity
 
         do {
             System.out.print("Please guess a number: ");
             try {
-                int numberGuessed = 0; // Not necessary to initialize here, but done for clarity
+
                 numberGuessed = input.nextInt();
 
                 if (numberGuessed > randomNumber) {

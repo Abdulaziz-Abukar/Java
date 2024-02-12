@@ -12,9 +12,9 @@ public class ReverseNumbers {
 
         int reversedNumber = 0;
         while (number != 0) {
-            int digit = number % 10; // Extract the last digit of the number
-            reversedNumber = reversedNumber * 10 + digit; // Append the digit to the reversed number
-            number /= 10; // Remove the last digit from number
+            int digit = number % 10;
+            reversedNumber = reversedNumber * 10 + digit;
+            number /= 10;
         }
 
         System.out.println("Reversed Number: " + reversedNumber);
