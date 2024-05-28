@@ -14,7 +14,7 @@ public class InputValidation {
         do {
             System.out.println("Please enter a number between 1 and 10: ");
             try {
-                userInput = input.nextInt(); // Attempt to read an integer from the user
+                int userInput = input.nextInt(); // Attempt to read an integer from the user
 
                 // Check if the number is within the desired range
                 if (userInput >= 1 && userInput <= 10) {
