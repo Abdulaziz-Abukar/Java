@@ -13,9 +13,9 @@ public class Main {
             System.out.println();
             System.out.println();
             System.out.println("1. create a Bank Account");
-            System.out.println("2. Deposit");
+            System.out.println("2. Display Information");
             System.out.println("3. Withdraw");
-            System.out.println("4. Display Information");
+            System.out.println("4. Deposit");
             System.out.println("Type Quit to exit.");
 
             int userInput = input.nextInt();
@@ -36,6 +36,7 @@ public class Main {
                     account.displayAccountinfo();
                     break;
                 case 2:
+
 
             }
         }
