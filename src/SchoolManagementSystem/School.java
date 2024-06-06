@@ -15,18 +15,21 @@ public class School {
 
     public void addClass(Class classObj) {
         classes.add(classObj);
-        System.out.println(classObj + " has been added to " + schoolName);
+        System.out.println(classObj.getClassName() +
+                " has been added to " + schoolName);
     }
 
     public void removeClass(String className) {
         for (int i = 0; i < classes.size(); i++) {
             if (classes.get(i).getClassName().equals(className)) {
-                System.out.println("Class: " + className + " Has been removed.");
+                System.out.println("Class: " + className +
+                        " Has been removed.");
                 classes.remove(i);
                 return;
             }
         }
-        System.out.println(className + " Has not been found at this school.");
+        System.out.println(className +
+                " Has not been found at this school.");
     }
 
     public void listClasses() {

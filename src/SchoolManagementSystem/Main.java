@@ -5,7 +5,7 @@ public class Main {
 
         School school1 = new School("Forest Lawn");
         Student student1 = new Student("Abdulaziz", "ST1");
-        Student student2 = new Student("Aesha", "ST2");
+        Student student2 = new Student("Antonio", "ST2");
         Class class1 = new Class("Math");
 
         school1.addClass(class1);
