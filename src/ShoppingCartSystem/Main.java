@@ -31,8 +31,7 @@ public class Main {
         cart1.addItem(item2);
         cart1.addItem(item3);
 
-        cart1.removeItem(item4.getItemName());
+        System.out.printf("Your total today will be: %.2f%n", cart1.calculateTotal());
 
-        cart1.listItems();
     }
 }

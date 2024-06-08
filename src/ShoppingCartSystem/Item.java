@@ -14,6 +14,9 @@ public class Item {
     public String getItemName() {
         return itemName;
     }
+    public double getPrice() {
+        return price;
+    }
 
     public void displayItemInfo() {
         System.out.println("Item: " + itemName);

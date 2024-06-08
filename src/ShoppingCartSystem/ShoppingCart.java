@@ -2,7 +2,7 @@ package ShoppingCartSystem;
 import java.util.ArrayList;
 public class ShoppingCart {
     ArrayList<Item> items;
-
+    double total;
 
     public ShoppingCart() {
         items = new ArrayList<>();
@@ -27,5 +27,12 @@ public class ShoppingCart {
         for (Item item : items) {
             System.out.println("Item: " + item.getItemName());
         }
+    }
+
+    public double calculateTotal() {
+        for (Item item : items) {
+            total += item.getPrice();
+        }
+        return total;
     }
 }
