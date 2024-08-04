@@ -29,12 +29,12 @@ public class Main {
         Food food = new Food("Apples", 5.50, "08/10/24");
 
         ShoppingCart shoppingCart = new ShoppingCart();
-//
-//        shoppingCart.addProducts(electronics);
-//        shoppingCart.addProducts(clothing);
-//        shoppingCart.addProducts(food);
-//
-//        shoppingCart.displayProducts();
+
+        shoppingCart.addProducts(electronics);
+        shoppingCart.addProducts(clothing);
+        shoppingCart.addProducts(food);
+
+        shoppingCart.displayProducts();
 
         System.out.printf("Total today is: $%.2f%n", shoppingCart.calculateTotal());
     }
