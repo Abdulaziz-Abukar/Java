@@ -6,7 +6,7 @@ In this program I will be using variables, data types, operators, and if else st
 import java.util.Scanner;
 
 public class LeapYearChecker {  // Class name.
-    public static void main(String[] args) {    // main method.
+    public static void main(String[] args) {    // Main method.
         Scanner input = new Scanner(System.in); // Create a Scanner object for user input.
 
         System.out.print("Please provide me a year: "); // ask for user input.

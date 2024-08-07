@@ -7,7 +7,7 @@ in this program I will be using variables, data types, operators, and if else st
 import java.util.Scanner;
 
 public class PositiveOrNegative {   // public class for members access
-    public static void main(String[] args) {    // main entry point for java programs
+    public static void main(String[] args) {    // Main entry point for java programs
         Scanner input = new Scanner(System.in); // create the scanner variable name.
 
         System.out.print("Please provide me with a number: ");  // ask for user input.

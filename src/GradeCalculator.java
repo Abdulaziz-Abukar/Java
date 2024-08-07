@@ -5,7 +5,7 @@ I will be using variables, data types, operators and else if statements.
 
 import java.util.Scanner;
 public class GradeCalculator {  // public class name.
-    public static void main(String[] args) {    // main entry point for java program.
+    public static void main(String[] args) {    // Main entry point for java program.
         Scanner input = new Scanner(System.in); // Scanner object for user input.
 
         System.out.print("Please provide a test score percentage: "); // ask for user input.

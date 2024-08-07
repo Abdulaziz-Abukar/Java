@@ -7,7 +7,7 @@ For numbers which are multiples of both three and five, print "FizzBuzz".
 
 import java.util.Scanner;
 public class PrintNumbersRange {    // public class.
-    public static void main(String[] args) { // main entry point for java program.
+    public static void main(String[] args) { // Main entry point for java program.
         Scanner input = new Scanner(System.in); // Create object for user input.
 
         System.out.print("Please provide a number: ");  // ask for user input.
