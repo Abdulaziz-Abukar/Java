@@ -17,6 +17,7 @@ A constructor that sets the capacity.
 Methods addItem(T item) to add an item, and getItems() to retrieve all items.
 Ensure that addItem throws an exception if the box is full.
  */
+
 class Crate<T> {
     private List<T> items;
     private int capacity;
